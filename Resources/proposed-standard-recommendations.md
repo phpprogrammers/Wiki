@@ -1,10 +1,19 @@
 Proposed Standard Recommendations
 ======
-This document is gathers the content of PSR-1, PSR-2 and PSR-3 in one large document. You can quickly navigate through it by using the TOC navigation on the right side of the page.
+This document is gathers the content of [PSR-1,](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) and [PSR-3](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) in one large document. You can quickly navigate through it by using the TOC (Table of contents) navigation in below.
 
 These standards is by no means something created by the PHP Programmers commnity, but full credit goes to [PHP Framework Interop Group](http://www.php-fig.org/).
 
 The content on this page can also be found in https://github.com/php-fig/fig-standards under the "accepted" folder.
+
+**Table of Contents**
+  * [Basic Coding Standard](#psr-1-basic-coding-standard)
+  * [Files](#2-files)
+  * [Namespace & Class Name](#3-namespace-and-class-names)
+  * [Class Constants, Properties and Methods](#4-class-constants-properties-and-methods)
+  * [PSR-2 Overview](#1-overview-1) -> [General](#2-general) -> [Namespace and Use Declaration](#3-namespace-and-use-decleration) -> [Classes, Properties and Methods](#4-classes-properties-and-methods) -> [Control Strucrure](#5-control-structures) -> [Closures](#6-closures)
+  * [PSR-3 Logging Interface](#1-specification) -> [Package](#2-package) -> [PSR\Log\LoggerInterface](#3-psrlogloggerinterface) -> [Psr\Log\LoggerAwareInterface](#4-psrlogloggerawareinterface) -> [Psr\Log\LogLevel](#5-psrlogloglevel)
+  * [Accepted PSRs](#accepted-psrs)
 
 PSR-1: Basic Coding Standard
 ======
