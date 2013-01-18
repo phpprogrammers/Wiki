@@ -16,7 +16,7 @@ PSR-1: Basic Coding Standard
   * Files MUST use only <?php and <?= tags.
   * Files MUST use only UTF-8 without BOM for PHP code.
   * Files SHOULD either declare symbols (classes, functions, constants, etc.) or cause side-effects (e.g. generate output, change .ini settings, etc.) but SHOULD NOT do both.
-  * Namespaces and classes MUST follow [PSR-0 - Autoloading Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md).
+  * Namespaces and classes MUST follow [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md).
   * Class names MUST be declared in StudlyCaps.
   * Class constants MUST be declared in all upper case with underscore separators.
   * Method names MUST be declared in camelCase.
@@ -887,5 +887,5 @@ Accepted PSR's
 Resources
 ======
 [PHP The Right Way](http://www.phptherightway.com/)  
-[PHP Framework Interop Group](http://www.php-fig.org/)
+[PHP Framework Interop Group](http://www.php-fig.org/)  
 [FIG Standards Repository - GitHub](https://github.com/php-fig/fig-standards)
