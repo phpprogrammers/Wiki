@@ -8,6 +8,11 @@ How to contribute
 
 If you want to contribute to our wiki, please fork the repository. If you are not familiar with Git or how GitHub works please [read this](http://learn.github.com/p/intro.html).
 
+Request for Content
+====
+Our wiki may not fulfill your required content. So you can write issue or you can just create any empty file in this resource directory if you really
+want to see some writings on your desired content. So that our contributors can start writing on that.
+
 Table of content
 ====
 
@@ -15,3 +20,12 @@ Table of content
 
   * How to use Git and GitHub
   * Proposed Standrad Recommendations
+
+
+
+**Contributors**
+  * Ole Aass https://github.com/oaass
+  * Shaharia Azam http://www.shahariaazam.com
+
+**Official Website**
+http://www.php-programmers.net
