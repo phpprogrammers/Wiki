@@ -1,10 +1,14 @@
 Proposed Standard Recommendations
 ======
-This document is gathers the content of PSR-1, PSR-2 and PSR-3 in one large document. You can quickly navigate through it by using the TOC navigation on the right side of the page.
+This document is gathers the content of [PSR-1,](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md) and [PSR-3](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md) in one large document. You can quickly navigate through it by using the TOC (Table of contents) navigation in below.
 
 These standards is by no means something created by the PHP Programmers commnity, but full credit goes to [PHP Framework Interop Group](http://www.php-fig.org/).
 
 The content on this page can also be found in https://github.com/php-fig/fig-standards under the "accepted" folder.
+
+**Table of Contents**
+  * [Basic Coding Standard](#psr-1-basic-coding-standard)
+  * [Files](#2-files)
 
 PSR-1: Basic Coding Standard
 ======
