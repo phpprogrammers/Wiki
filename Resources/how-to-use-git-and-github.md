@@ -10,6 +10,8 @@ Fork a Repository
 
 If you want to contribute, or use a project that lives on GitHub there is two things you will have to do.
 
+For a detailed explination read [Fork A Repo](https://help.github.com/articles/fork-a-repo)
+
 1. Fork the repository
 
 Go to the repository you want to fork and click "Fork". GitHub will now make a repository on your profile with the same name as the one you forked
