@@ -16,7 +16,7 @@ PSR-1: Basic Coding Standard
   * Files MUST use only <?php and <?= tags.
   * Files MUST use only UTF-8 without BOM for PHP code.
   * Files SHOULD either declare symbols (classes, functions, constants, etc.) or cause side-effects (e.g. generate output, change .ini settings, etc.) but SHOULD NOT do both.
-  * Namespaces and classes MUST follow [[https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md|PSR-0]]. ((PSR-0 - Mandatory requirements that must be adhered to for autoloader interoperability)).
+  * Namespaces and classes MUST follow [PSR-0 - Autoloading Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md).
   * Class names MUST be declared in StudlyCaps.
   * Class constants MUST be declared in all upper case with underscore separators.
   * Method names MUST be declared in camelCase.
@@ -80,7 +80,8 @@ if (! function_exists('bar')) {
 
 3. Namespace and Class Names
 ------
-Namespaces and classes MUST follow [[https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md|PSR-0]].
+
+Namespaces and classes MUST follow [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md).
 
 This means each class is in a file by itself, and is in a namespace of at least one level: a top-level vendor name.
 
@@ -116,6 +117,7 @@ class Vendor_Model_Foo
 The term "class" refers to all classes, interfaces, and traits.
 
 **4.1. Constants**
+
 Class constants MUST be declared in all upper case with underscore separators. For example:
 
 ```php
@@ -130,11 +132,13 @@ class Foo
 ```
 
 **4.2. Properties**
+
 This guide intentionally avoids any recommendation regarding the use of $StudlyCaps, $camelCase, or $under_score property names.
 
 Whatever naming convention is used SHOULD be applied consistently within a reasonable scope. That scope may be vendor-level, package-level, class-level, or method-level.
 
 **4.3. Methods**
+
 Method names MUST be declared in camelCase().
 
 PSR-2: Coding Style Guide
@@ -142,7 +146,8 @@ PSR-2: Coding Style Guide
 
 1. Overview
 ------
-  * Code MUST follow [[https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md|PSR-1]].
+
+  * Code MUST follow [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md).
   * Code MUST use 4 spaces for indenting, not tabs.
   * There MUST NOT be a hard limit on line length; the soft limit MUST be 120 characters; lines SHOULD be 80 characters or less.
   * There MUST be one blank line after the namespace declaration, and there MUST be one blank line after the block of use declarations.
@@ -154,9 +159,10 @@ PSR-2: Coding Style Guide
   * Opening parentheses for control structures MUST NOT have a space after them, and closing parentheses for control structures MUST NOT have a space before.
 
 **1.1. Example**
+
 This example encompasses some of the rules below as a quick overview:
 
-```
+```php
 <?php
 namespace Vendor\Package;
 
@@ -187,9 +193,11 @@ class Foo extends Bar implements FooInterface
 2. General
 ------
 **2.1. Basic Coding Standard**
-Code MUST follow all rules outlined in [[https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md|PSR-1]].
+
+Code MUST follow all rules outlined in [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md).
 
 **2.2. Files**
+
 All PHP files MUST use the Unix LF (linefeed) line ending.
 
 All PHP files MUST end with a single blank line.
@@ -197,6 +205,7 @@ All PHP files MUST end with a single blank line.
 The closing ?> tag MUST be omitted from files containing only PHP.
 
 **2.3. Lines**
+
 There MUST NOT be a hard limit on line length.
 
 The soft limit on line length MUST be 120 characters; automated style checkers MUST warn but MUST NOT error at the soft limit.
@@ -210,19 +219,22 @@ Blank lines MAY be added to improve readability and to indicate related blocks o
 There MUST NOT be more than one statement per line.
 
 **2.4. Indenting**
+
 Code MUST use an indent of 4 spaces, and MUST NOT use tabs for indenting.
 
 ```
-N.b.: Using only spaces, and not mixing spaces with tabs, helps to avoid problems with diffs, patches, history, and annotations.
-The use of spaces also makes it easy to insert fine-grained sub-indentation for inter-line alignment.
+N.b.: Using only spaces, and not mixing spaces with tabs, helps to avoid problems with diffs, patches, history, 
+and annotations. The use of spaces also makes it easy to insert fine-grained sub-indentation for inter-line alignment.
 ```
 
 **2.5. Keywords and True/False/Null**
+
 PHP keywords MUST be in lower case.
 The PHP constants true, false, and null MUST be in lower case.
 
 3. Namespace and Use Decleration
 ------
+
   * When present, there MUST be one blank line after the namespace declaration.
   * When present, all use declarations MUST go after the namespace declaration.
   * There MUST be one use keyword per declaration.
@@ -243,9 +255,11 @@ use OtherVendor\OtherPackage\BazClass;
 
 4. Classes, Properties, and Methods
 ------
-  The term "class" refers to all classes, interfaces, and traits.
+
+The term "class" refers to all classes, interfaces, and traits.
   
 **4.1. Extends and Implements**
+
 The extends and implements keywords MUST be declared on the same line as the class name.
 
 The opening brace for the class MUST go on its own line; the closing brace for the class MUST go on the next line after the body.
@@ -284,6 +298,7 @@ class ClassName extends ParentClass implements
 ```
 
 **4.2. Properties**
+
 Visibility MUST be declared on all properties.
 
 The var keyword MUST NOT be used to declare a property.
@@ -305,6 +320,7 @@ class ClassName
 ```
 
 **4.3. Methods**
+
 Visibility MUST be declared on all methods.
  
 Method names SHOULD NOT be prefixed with a single underscore to indicate protected or private visibility.
@@ -327,6 +343,7 @@ class ClassName
 ```
 
 **4.4. Method Arguments**
+
 In the argument list, there MUST NOT be a space before each comma, and there MUST be one space after each comma.
 
 Method arguments with default values MUST go at the end of the argument list.
@@ -365,6 +382,7 @@ class ClassName
 ```
 
 **4.5. abstract, final, and static**
+
 When present, the abstract and final declarations MUST precede the visibility declaration.
  
 When present, the static declaration MUST come after the visibility declaration.
@@ -387,6 +405,7 @@ abstract class ClassName
 ```
 
 **4.6. Method and Function Calls**
+
 When making a method or function call, there MUST NOT be a space between the method or function name and the opening parenthesis, there MUST NOT be a space after the opening parenthesis, and there MUST NOT be a space before the closing parenthesis. In the argument list, there MUST NOT be a space before each comma, and there MUST be one space after each comma.
 
 ```php
@@ -422,6 +441,7 @@ The general style rules for control structures are as follows:
 The body of each structure MUST be enclosed by braces. This standardizes how the structures look, and reduces the likelihood of introducing errors as new lines get added to the body.
 
 **5.1. if, elseif, else**
+
 An if structure looks like the following. Note the placement of parentheses, spaces, and braces; and that else and elseif are on the same line as the closing brace from the earlier body.
 
 ```php
@@ -438,6 +458,7 @@ if ($expr1) {
 The keyword elseif SHOULD be used instead of else if so that all control keywords look like single words.
 
 **5.2. switch, case**
+
 A switch structure looks like the following. Note the placement of parentheses, spaces, and braces. The case statement MUST be indented once from switch, and the break keyword (or other terminating keyword) MUST be indented at the same level as the case body. There MUST be a comment such as <nowiki>//</nowiki> no break when fall-through is intentional in a non-empty case body.
 
 ```php
@@ -461,6 +482,7 @@ switch ($expr) {
 ```
 
 **5.3. while, do while**
+
 A while statement looks like the following. Note the placement of parentheses, spaces, and braces.
 
 ```php
@@ -480,6 +502,7 @@ do {
 ```
 
 **5.4. for**
+
 A for statement looks like the following. Note the placement of parentheses, spaces, and braces.
 
 ```php
@@ -490,6 +513,7 @@ for ($i = 0; $i < 10; $i++) {
 ```
 
 **5.5. foreach**
+
 A foreach statement looks like the following. Note the placement of parentheses, spaces, and braces.
 
 ```php
@@ -500,6 +524,7 @@ foreach ($iterable as $key => $value) {
 ```
 
 **5.6. try, catch**
+
 A try catch block looks like the following. Note the placement of parentheses, spaces, and braces.
 
 ```php
@@ -515,6 +540,7 @@ try {
 
 6. Closures
 ------
+
   * Closures MUST be declared with a space after the function keyword, and a space before and after the use keyword.
   * The opening brace MUST go on the same line, and the closing brace MUST go on the next line following the body.
   * There MUST NOT be a space after the opening parenthesis of the argument list or variable list, and there MUST NOT be a space before the closing parenthesis of the argument list or variable list.
@@ -601,6 +627,7 @@ $foo->bar(
 
 7. Conclusion
 ------
+
 There are many elements of style and practice intentionally omitted by this guide. These include but are not limited to:
 
   * Declaration of global variables and global constants
@@ -618,6 +645,7 @@ PSR-3: Logging Interface
 
 1. Specification
 ------
+
 **1.1 Basics**
 
 The LoggerInterface exposes eight methods to write logs to the eight RFC 5424 levels (debug, info, notice, warning, error, critical, alert, emergency).
@@ -678,6 +706,7 @@ If an Exception object is passed in the context data, it MUST be in the 'excepti
 
 2. Package
 ------
+
 The interfaces and classes described as well as relevant exception classes and a test suite to verify your implementation are provided as part of the psr/log package.
 
 3. Psr\Log\LoggerInterface
@@ -859,4 +888,4 @@ Resources
 ======
 [PHP The Right Way](http://www.phptherightway.com/)  
 [PHP Framework Interop Group](http://www.php-fig.org/)
-[[https://github.com/php-fig/fig-standards|FIG Standards Repository - GitHub]]
+[FIG Standards Repository - GitHub](https://github.com/php-fig/fig-standards)
