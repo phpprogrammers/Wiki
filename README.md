@@ -18,12 +18,16 @@ Table of content
 
 **Reources**
 
-  * How to use Git and GitHub
-  * Proposed Standrad Recommendations
+  * [How to use Git and GitHub](https://github.com/phpprogrammers/Wiki/blob/master/Resources/how-to-use-git-and-github.md)
+  * [Proposed Standrad Recommendations](https://github.com/phpprogrammers/Wiki/blob/master/Resources/proposed-standard-recommendations.md)
+  * Editors in PHP
+  * Installing PHP
+  * What is Class, Methods
 
 
 
 **Contributors**
+We are only listing our 10 top contributors here. To see the full list you can [click here](https://github.com/phpprogrammers/Wiki/graphs/contributors)
   * Ole Aass https://github.com/oaass
   * Shaharia Azam http://www.shahariaazam.com
 
