@@ -9,6 +9,11 @@ The content on this page can also be found in https://github.com/php-fig/fig-sta
 **Table of Contents**
   * [Basic Coding Standard](#psr-1-basic-coding-standard)
   * [Files](#2-files)
+  * [Namespace & Class Name](#3-namespace-and-class-names)
+  * [Class Constants, Properties and Methods](#4-class-constants-properties-and-methods)
+  * [PSR-2 Overview](#1-overview-1) -> [General](#2-general) -> [Namespace and Use Declaration](#3-namespace-and-use-decleration) -> [Classes, Properties and Methods](#4-classes-properties-and-methods) -> [Control Strucrure](#5-control-structures) -> [Closures](#6-closures)
+  * [PSR-3 Logging Interface](#1-specification) -> [Package](#2-package) -> [PSR\Log\LoggerInterface](#3-psrlogloggerinterface) -> [Psr\Log\LoggerAwareInterface](#4-psrlogloggerawareinterface) -> [Psr\Log\LogLevel](#5-psrlogloglevel)
+  * [Accepted PSRs](#accepted-psrs)
 
 PSR-1: Basic Coding Standard
 ======
