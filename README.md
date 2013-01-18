@@ -10,3 +10,8 @@ If you want to contribute to our wiki, please fork the repository. If you are no
 
 Table of content
 ====
+
+**Reources**
+
+  * How to use Git and GitHub
+  * Proposed Standrad Recommendations
