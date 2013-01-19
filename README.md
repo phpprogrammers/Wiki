@@ -20,11 +20,14 @@ Table of content
 
   * [How to use Git and GitHub](https://github.com/phpprogrammers/Wiki/blob/master/Resources/how-to-use-git-and-github.md)
   * [Proposed Standrad Recommendations](https://github.com/phpprogrammers/Wiki/blob/master/Resources/proposed-standard-recommendations.md)
-  * Editors in PHP
-  * Installing PHP
-  * What is Class, Methods
+  * [Editors and IDEs in PHP](https://github.com/phpprogrammers/Wiki/blob/master/Resources/editors-and-ides.md)
+  * [Do's and Dont's](https://github.com/phpprogrammers/Wiki/blob/master/Resources/dos-and-donts.md)
 
+**Tutorials**
 
+  * [Functions](https://github.com/phpprogrammers/Wiki/blob/master/Tutorials/functions.md)
+  * [Classes and Object](https://github.com/phpprogrammers/Wiki/blob/master/Tutorials/classes-and-objects.md)
+  * [Installing PHP](https://github.com/phpprogrammers/Wiki/blob/master/Tutorials/installation.md)
 
 Contributors
 ====
