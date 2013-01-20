@@ -34,6 +34,7 @@ Contributors
 We are only listing our 10 top contributors here. To see the full list you can [click here](https://github.com/phpprogrammers/Wiki/graphs/contributors)
   * Ole Aass https://github.com/oaass
   * Shaharia Azam http://www.shahariaazam.com
+  * Audun Larsen https://github.com/xqus
 
 Official Website
 ====
