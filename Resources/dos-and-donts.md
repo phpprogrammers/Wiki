@@ -8,7 +8,7 @@ Do use bcrypt to store your passwords
 
 Storing users password in plain-text in the database is a bad idea. Everyone can understand that.
 The last couple of years the PHP community best practice has changed alot, from unsalted md5 hashes
-to more complicated alorithms. But still there are some bad practice going on in the PHP community.
+to more complicated algorithms. But still there are some bad practice going on in the PHP world.
 So how should you store passwords? [Use bcrypt](http://codahale.com/how-to-safely-store-a-password/).
 
 In PHP 5.5 there is a new password hashing API, if you have it available you should use it.
@@ -33,7 +33,8 @@ some libraries that can take care of this for you in a proper way:
 * [PasswordLib](https://github.com/ircmaxell/PHP-PasswordLib)
 
 If this does not suit you you should read this blog post: [How to store passwords securely](http://xqus.com/blog/how-to-store-passwords).
-In essential bcrypt hashing in PHP can be done like this:
+
+But in essential bcrypt hashing in PHP can be done like this:
 ```php
 $myPassword = 'mySecretPassword'; // This is the password we want to hash.
 
@@ -70,4 +71,4 @@ if(strlen($hash) > 13) {
 }
 ```
 But please do not use this code unless you read the blog post mentioned above since there are several things going on here that
-need axplanation.
+need explanation.
