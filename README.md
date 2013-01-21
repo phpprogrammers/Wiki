@@ -31,6 +31,7 @@ Table of content
   * [Proposed Standrad Recommendations](https://github.com/phpprogrammers/Wiki/blob/master/Resources/proposed-standard-recommendations.md)
   * [Editors and IDEs in PHP](https://github.com/phpprogrammers/Wiki/blob/master/Resources/editors-and-ides.md)
   * [Do's and Dont's](https://github.com/phpprogrammers/Wiki/blob/master/Resources/dos-and-donts.md)
+  * [Learning Roadmap](https://github.com/phpprogrammers/Wiki/blob/master/Resources/learning-roadmap.md)
 
 **Tutorials**
 
@@ -46,6 +47,7 @@ We are only listing our 10 top contributors here. To see the full list you can
   * Ole Aass https://github.com/oaass
   * Shaharia Azam http://www.shahariaazam.com
   * Audun Larsen https://github.com/xqus
+  * Flavius Aspra https://github.com/flavius
 
 Official Website
 ====
