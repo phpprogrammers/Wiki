@@ -18,10 +18,9 @@ this](http://learn.github.com/p/intro.html).
 Request for Content
 ====
 
-Our wiki may not fulfill your required content. So you can write issue or you
-can just create any empty file in this resource directory if you really want to
-see some writings on your desired content. So that our contributors can start
-writing on that.
+Our wiki may not provide the content you are looking for. In that case, you're
+welcome to open up [an issue](https://github.com/phpprogrammers/Wiki/issues),
+so that our contributors can start working on it.
 
 Table of content
 ====
