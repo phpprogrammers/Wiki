@@ -52,3 +52,8 @@ We are only listing our 10 top contributors here. To see the full list you can
 Official Website
 ====
 http://www.php-programmers.net
+
+## License
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
